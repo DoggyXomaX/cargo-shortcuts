@@ -1,0 +1,7 @@
+alias rn="cargo new"
+alias rb="cargo build"
+alias rr="cargo run"
+alias rbr="cargo build --release"
+alias rrr="cargo run --release"
+alias rc="cargo check"
+alias re="code ."
