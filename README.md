@@ -1,15 +1,18 @@
 # Cargo shortcuts
 Created for reduce ass pain.
 
-## Install
+## Dependencies
+- VSCode (code)
+- RustUp (or just cargo)
 
-**Bash**
+## Installation
+- **Bash**
 ```bash
 make
 # or make bash
 ```
 
-**Zsh**
+- **Zsh**
 ```bash
 make zsh
 ```
