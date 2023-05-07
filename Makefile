@@ -1,9 +1,5 @@
 bash:
-	cp ./.cargo-shortcuts ~/
-	echo "source ~/.cargo-shortcuts" >> ~/.bashrc
-	source ~/.bashrc
+	/bin/bash install.sh
 
 zsh:
-	cp ./.cargo-shortcuts ~/
-	echo "source ~/.cargo-shortcuts" >> ~/.zshrc
-	source ~/.zshrc
+	/bin/zsh install-zsh.sh
