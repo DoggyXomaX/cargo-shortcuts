@@ -1,5 +1,5 @@
 # Cargo shortcuts
-Created for reduce ass pain.
+Created to reduce ass pain.
 
 ## Dependencies
 - VSCode (code)
