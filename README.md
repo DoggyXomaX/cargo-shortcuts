@@ -21,4 +21,5 @@ r-c="cargo check"
 r-e="code ."
 r-u="cargo update"
 r-i="cargo install"
+r-a="cargo add"
 ```
