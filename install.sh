@@ -29,11 +29,11 @@ targetFile="${targetPath}/${filename}"
 if [ ! -f "${targetFile}" ]; then
 	echo "==== ${targetFile} not found, creating RC entry... ===="
 
-	shell=$(getEnv "${SHELL}" "/usr/bin/bash")
-	if [ "${shell}" == "/usr/bin/zsh" ]; then
+	shell=$(getEnv "${SHELL}" "/bin/bash")
+	if [ "${shell}" == "/usr/bin/zsh"  ] || [ "${shell}" == "/bin/zsh" ]; then
 		echo "Adding source entry to ~/.zshrc"
 		echo "source ${targetFile}" >> ~/.zshrc
-	elif [ "${shell}" == "/usr/bin/bash" ]; then
+	elif [ "${shell}" == "/usr/bin/bash" ] || [ "${shell}" == "/bin/bash" ]; then
 		echo "Adding source entry to ~/.bashrc"
 		echo "source ${targetFile}" >> ~/.bashrc
 	else
